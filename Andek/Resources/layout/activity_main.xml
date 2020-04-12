@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/relativeLayout1">
+    <EditText
+        android:id="@+id/input_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100px"
+        android:layout_marginLeft="50px"
+        android:layout_marginRight="50px"
+        android:inputType="text"
+        android:singleLine="true" />
+    <EditText
+        android:id="@+id/output_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200px"
+        android:layout_marginLeft="50px"
+        android:layout_marginRight="50px"
+        android:inputType="none"
+        android:editable="false"
+        android:singleLine="true"
+        android:transitionName="output_pass" />
+    <Button
+        android:text="COPY"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/copy_button"
+        android:layout_marginTop="350px"
+        android:layout_marginRight="50px"
+        android:layout_marginLeft="50px" />
+    <CheckBox
+        android:text="Small Letters"
+        android:checked="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/small_letters_allowed"
+        android:layout_marginTop="500px"
+        android:layout_marginRight="50px"
+        android:layout_marginLeft="50px" />
+    <CheckBox
+        android:text="Capital Letters"
+        android:checked="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/capital_letters_allowed"
+        android:layout_marginTop="600px"
+        android:layout_marginRight="50px"
+        android:layout_marginLeft="50px" />
+    <CheckBox
+        android:text="Digits"
+        android:checked="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/digits_allowed"
+        android:layout_marginTop="700px"
+        android:layout_marginRight="50px"
+        android:layout_marginLeft="50px" />
+    <CheckBox
+        android:text="Ambigous Characters"
+        android:checked="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ambigous_characters_allowed"
+        android:layout_marginTop="800px"
+        android:layout_marginRight="50px"
+        android:layout_marginLeft="50px" />
+</RelativeLayout>
